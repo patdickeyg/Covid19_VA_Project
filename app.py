@@ -49,7 +49,7 @@ st.write(welcome)
 ###dashboard options for the sidebar
 st.sidebar.title("Covid19 Dashboard")
 dashOptions = st.sidebar.selectbox("Select a Menu Option to display:", 
-                                   ('Vacination', 'Cases Tracker', 'New Cases', 'Comparison'))
+                                   ('Vaccination', 'Cases Tracker', 'New Cases', 'Comparison'))
     
 # displays headers fore each dashboard
 st.header(dashOptions)
