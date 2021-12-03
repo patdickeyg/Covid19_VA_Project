@@ -151,7 +151,7 @@ if dashOptions == 'New Cases':
     
     
 # dashboard for new cases
-if dashOptions == 'Vacination':
+if dashOptions == 'Vaccination':
     
     cols_c = ['Janssen','Moderna','Pfizer', 'Other MF']
     option_selectbox = st.sidebar.multiselect('Select a Vaccine Manufacturer(s):', cols_c, cols_c[2], key=4)
