@@ -95,7 +95,7 @@ if dashOptions == 'Cases Tracker':
     color='key:N',
     tooltip=['cols:Q']
     ).properties(
-    title='Total Cases Per Day',
+    title='Total Cases',
     width=600,
     height=400
     ).interactive()
@@ -114,7 +114,7 @@ if dashOptions == 'Cases Tracker':
     color='key:N',
     tooltip=['value:Q']
     ).properties(
-    title='Total Deaths Per Day',
+    title='Total Deaths',
     width=600,
     height=400
     ).interactive()
